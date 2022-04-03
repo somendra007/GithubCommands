@@ -1,0 +1,27 @@
+git --version
+git config --global user.name "Somendra Pratap Singh"
+git config --global user.name
+git config --global user.email "somenprtap.singh@gmail.com"
+git config --global user.email
+Go To Folder and enter in command line "git init" then git initializ and then call "git status"
+"git add is used moved in staging part"
+git add .\DataGeneratorTool\
+git add .\DataGeneratorTool.sln
+git status
+git commit -m "inital commit"
+git log (To Check how many are commit)
+git checkout <commit hash code/branch name>
+git checkout master
+git branch
+git branch dev (create new branch)
+git checkout dev
+git checkout -b somendra/DataGenerateTool (Create branch with checkout)
+(Merge Concept)
+git merge somendra/DataGenerateTool
+(Code push in github repo)
+git remote -v
+git remote add origin <github repo URL>
+git remote add origin https://github.com/somendra007/BillionDataGenerateTool.git
+git branch -M Master
+git push -u origin master
+
